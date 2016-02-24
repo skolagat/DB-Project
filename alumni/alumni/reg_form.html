@@ -1,0 +1,61 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">  
+        <title>ATS</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font.css" />
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/style.css" />
+    </head>
+
+
+    <div class="body"></div>
+    <div class="grad"></div>
+    <div class="header">
+        <div>Alumni</br><span>Tracking System</span></div>
+    </div>
+    <br>
+    <form action="./additional_info.php" method="post">
+
+        <div class="register">
+
+            <div class="input-group">
+            <input type="text" required placeholder="username" name="username"><br>
+            <input type="password" required placeholder="password" name="password"><br>
+
+            <input type="text" required placeholder="First Name" name="fname"><br>
+            <input type="text" required placeholder="Middle Name" name="mname"><br>
+            <input type="text" required placeholder="Last Name" name="lname"><br>
+            <input type="text" placeholder="SSN" name="ssn"><br>            
+            <input type="text" placeholder="Age" name="age"><br>
+            <input type="text" placeholder="department" name="department"><br>
+            <input type="text" placeholder="Address: Street" name="adress_street"><br>
+            <input type="text" placeholder="Address: City" name="adress_city"><br>
+            <input type="text" placeholder="Address: State" name="adress_state"><br>
+            <input type="text" placeholder="Address: Zip" name="adress_zip"><br>
+           
+
+
+            <select name="registration_type" class="styled-select" style="color: black;">
+              <option value="Student">Student</option>
+              <option value="Faculty">Faculty</option>
+              <option value="Alumni">Alumni</option>
+            </select>
+            <input type="submit" value="Next Step">
+
+
+        </div>
+    </form>
+
+    <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
+
+
+</html>
